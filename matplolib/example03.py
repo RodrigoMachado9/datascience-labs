@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+eixox = (1,2,3,4)
+eixoy = (1,8,24,64)
+plt.plot(eixox, eixoy, 'm--', eixox, eixoy, 'bo')
+plt.title('Grafico contendo reta e pontos')
+plt.xlabel('Valor original')
+plt.ylabel('Valor ao cubo')
+plt.xlim(0,5)
+plt.ylim(0,100)
+plt.show()
