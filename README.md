@@ -1,2 +1,2 @@
-# datascience-university
+# datascience-labs
 learning datascience in university
